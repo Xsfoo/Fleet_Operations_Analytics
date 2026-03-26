@@ -1,52 +1,54 @@
 
 # Fleet Operations Analytics
 
-## 📌 Project Overview
-This project analyzes fleet operations for a humanitarian logistics organization. It combines **Python data analysis** and a **Tableau dashboard** to monitor truck performance, fuel consumption, driver efficiency, and maintenance needs.
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 
-**Objectives:**
-- Track fuel consumption per truck and driver.
-- Monitor distance traveled and trips completed.
-- Identify trucks that require maintenance.
-- Evaluate driver performance against benchmarks (1.8 km/L fuel efficiency).
+[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)](https://www.tableau.com/)
 
-## 📂 Project Structure
-```
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black)](https://github.com/Xsfoo/Fleet_Operations_Analytics)
+
+## Overview
+
+This project provides an **end-to-end analysis of fleet operations** using Python and Tableau.  
+
+It covers:
+
+- Monitoring fuel consumption and efficiency
+
+- Evaluating driver performance
+
+- Tracking vehicle maintenance
+
+- Visualizing operational data in interactive dashboards
+
+---
+
+## Project Structure
+
+```text
+
 Fleet_Operations_Analytics/
-│
+
 ├─ Dashboard/
+
 │   └─ Fleet_Operations_Dashboard.twbx
+
 ├─ Python/
-│   └─ fleet_analysis.ipynb  (or .py)
+
+│   └─ fleet_analysis.ipynb
+
 ├─ data/
+
 │   └─ fleet_data.csv
+
+├─ images/
+
+│   ├─ dashboard_screenshot.png
+
+│   └─ fuel_chart.png
+
 └─ README.md
-```
-
-## 🛠️ Requirements
-- Python 3.8+  
-- Jupyter Notebook (optional for `.ipynb`)  
-- Required Python packages:
-```bash
-pip install pandas matplotlib seaborn numpy
-```
-- Tableau Desktop or Tableau Public (for interactive dashboard)
-
-## 🚀 How to Run
-
-### **1. Python Analysis**
-- Open `fleet_analysis.ipynb` in Jupyter Notebook or VS Code.
-- Run all cells to process the dataset (`fleet_data.csv`) and generate analytics.
-- Optional: export processed data to CSV for Tableau.
-
-```bash
-python fleet_analysis.py   # If using .py script
-```
-
-### **2. Tableau Dashboard**
-- Open `Dashboard/Fleet_Operations_Dashboard.twbx` in Tableau Desktop or Tableau Public.
-- Use filters to select specific trucks, drivers, or date ranges.
-- Hover over charts to see tooltips with detailed metrics.
+ 
 
 ## 📊 Features
 - Fuel Consumption per Truck and Driver
